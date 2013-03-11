@@ -1,0 +1,6 @@
+src/main.c
+src/about.c
+src/nkfile.c
+src/callbacks.c
+src/menu.c
+src/preference.c

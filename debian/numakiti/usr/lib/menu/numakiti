@@ -1,0 +1,2 @@
+?package(numakiti):needs=X11 section=Apps/Editors\
+  title="numakiti" command="/usr/bin/numakiti"

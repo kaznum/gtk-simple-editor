@@ -1,0 +1,248 @@
+# $Id: ja.po,v 1.1.1.1 2002/12/28 19:53:03 kaz Exp $
+# ja.po for Numakiti Editor for GTK+.
+# Copyright (C) 2000-2001 Free Software Foundation, Inc.
+# Kazuya NUMATA <kaznum@gol.com>, 2000-2001.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Numakiti 0.1.10\n"
+"POT-Creation-Date: 2001-04-15 16:25+0900\n"
+"PO-Revision-Date: 2001-01-06 01:58+0900\n"
+"Last-Translator: Kazuya NUMATA <kaznum@gol.com>\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/main.c:37
+msgid "/_File"
+msgstr "/ファイル(_F)"
+
+#: src/main.c:38
+msgid "/_File/_New"
+msgstr "/ファイル(_F)/新規(_N)"
+
+#: src/main.c:39
+msgid "/_File/_Open"
+msgstr "/ファイル(_F)/開く(_O)"
+
+#: src/main.c:40
+msgid "/_File/_Save"
+msgstr "/ファイル(_F)/保存(_S)"
+
+#: src/main.c:41
+msgid "/_File/Save _as"
+msgstr "/ファイル(_F)/名前をつけて保存(_A)"
+
+#: src/main.c:42 src/main.c:44
+msgid "/_File/---"
+msgstr "/ファイル(_F)/---"
+
+#: src/main.c:43
+msgid "/_File/_Print"
+msgstr "/ファイル(_F)/印刷(_P)"
+
+#: src/main.c:45
+msgid "/_File/_Quit"
+msgstr "/ファイル(_F)/終了(_Q)"
+
+#: src/main.c:47
+msgid "/_Edit"
+msgstr "/編集(_E)"
+
+#: src/main.c:48
+msgid "/_Edit/_Cut"
+msgstr "/編集(_E)/カット(_C)"
+
+#: src/main.c:49
+msgid "/_Edit/C_opy"
+msgstr "/編集(_E)/コピー(_O)"
+
+#: src/main.c:50
+msgid "/_Edit/_Paste"
+msgstr "/編集(_E)/貼り付け(_P)"
+
+#: src/main.c:51
+msgid "/_Edit/Select _All"
+msgstr "/編集(_E)/全て選択(_A)"
+
+#: src/main.c:52
+msgid "/_Edit/---"
+msgstr "/編集(_E)/---"
+
+#: src/main.c:53
+msgid "/_Edit/P_references..."
+msgstr "/編集(_E)/設定(_R)"
+
+#: src/main.c:55
+msgid "/_Help"
+msgstr "/ヘルプ(_H)"
+
+#: src/main.c:56
+msgid "/_Help/About"
+msgstr "/ヘルプ(_H)/情報"
+
+#: src/main.c:88
+msgid "Numakiti"
+msgstr "沼吉"
+
+#: src/main.c:123
+msgid "New"
+msgstr "新規"
+
+#: src/main.c:124
+msgid "New Document"
+msgstr "新規ドキュメント"
+
+#: src/main.c:135
+msgid "Open"
+msgstr "開く"
+
+#: src/main.c:136
+msgid "Open Document"
+msgstr "ドキュメントを開く"
+
+#: src/main.c:147
+msgid "Save"
+msgstr "保存"
+
+#: src/main.c:148
+msgid "Save Document"
+msgstr "ドキュメントを保存する"
+
+#: src/main.c:159
+msgid "Save As"
+msgstr "別名保存"
+
+#: src/main.c:160
+msgid "Save Document As..."
+msgstr "ドキュメントに名前をつけて保存"
+
+#: src/main.c:171
+msgid "Print"
+msgstr "印刷"
+
+#: src/main.c:172
+msgid "Print Document"
+msgstr "ドキュメントを印刷"
+
+#: src/main.c:185
+msgid "Cut"
+msgstr "カット"
+
+#: src/main.c:186
+msgid "Cut Selected Text"
+msgstr "選択テキストをカット"
+
+#: src/main.c:197
+msgid "Copy"
+msgstr "コピー"
+
+#: src/main.c:198
+msgid "Copy Selected Text"
+msgstr "選択テキストをコピー"
+
+#: src/main.c:209
+msgid "Paste"
+msgstr "貼り付け"
+
+#: src/main.c:210
+msgid "Paste Buffered Text"
+msgstr "バッファを貼り付ける"
+
+#: src/main.c:223
+msgid "Quit"
+msgstr "終了"
+
+#: src/main.c:224
+msgid "Quit Numakiti"
+msgstr "沼吉を終了"
+
+#: src/callbacks.c:175 src/main.c:263
+msgid "Not Changed"
+msgstr "変更無し"
+
+#: src/about.c:32
+msgid "About"
+msgstr "情報"
+
+#: src/about.c:48
+msgid "Numakiti Editor for GTK+"
+msgstr "沼吉エディタ for GTK+"
+
+#: src/about.c:55
+#, c-format
+msgid "version %s"
+msgstr "バージョン %s"
+
+#: src/about.c:61
+msgid "Copyright (C) 2000-2001  Kazuya NUMATA <kaznum@gol.com>"
+msgstr "著作権 (C) 2000-2001 沼田 一哉 <kaznum@gol.com>"
+
+#: src/about.c:76 src/callbacks.c:105 src/preference.c:49
+msgid "OK"
+msgstr ""
+
+#: src/callbacks.c:96 src/nkfile.c:168
+msgid "Confirmation"
+msgstr "確認"
+
+#: src/nkfile.c:172
+msgid "The document is not saved. Do you save it?"
+msgstr "ドキュメントは保存されていません。保存しますか?"
+
+#: src/nkfile.c:177
+msgid "Yes"
+msgstr "はい"
+
+#: src/nkfile.c:187
+msgid "No"
+msgstr "いいえ"
+
+#: src/callbacks.c:112 src/nkfile.c:199
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: src/nkfile.c:219
+msgid "Numakiti: Open..."
+msgstr "沼吉: 開く..."
+
+#: src/nkfile.c:239
+msgid "Numakiti: Save as..."
+msgstr "沼吉: 名前をつけて保存..."
+
+#: src/callbacks.c:100
+msgid "The document is not saved. Are you really quit?"
+msgstr "ドキュメントは保存されていません。本当に終了しますか?"
+
+#: src/callbacks.c:171
+msgid "Changed"
+msgstr "更新"
+
+#: src/callbacks.c:181
+msgid "ReadOnly"
+msgstr "書き込み不可"
+
+#: src/preference.c:19
+msgid "Numakiti: Not implemented!\n"
+msgstr ""
+
+#: src/preference.c:32
+msgid "Preference"
+msgstr "設定"
+
+#: src/preference.c:38
+msgid "Not implemented!!"
+msgstr ""
+
+#: src/preference.c:58
+msgid "Apply"
+msgstr "適用"
+
+#: src/preference.c:65
+msgid "Close"
+msgstr "閉じる"
+
+#~ msgid "Close Numakiti"
+#~ msgstr "沼吉を終了"

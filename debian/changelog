@@ -1,0 +1,240 @@
+numakiti (0.1.14-26) unstable; urgency=low
+
+  * updated autoconf.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Tue, 29 May 2001 10:27:25 +0900
+
+numakiti (0.1.14-25) unstable; urgency=low
+
+  * fixed debian/changelog
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 27 May 2001 17:29:11 +0900
+
+numakiti (0.1.14-24) unstable; urgency=low
+
+  * fixed configure.in.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 27 May 2001 17:28:27 +0900
+
+numakiti (0.1.14-23) unstable; urgency=low
+
+  * Added intl/plural.c.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 27 May 2001 17:21:29 +0900
+
+numakiti (0.1.14-22) unstable; urgency=low
+
+  * AC_ARG_PROGRAM in configure.in was commented out.
+  * Using new version gettext (0.10.38)
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 27 May 2001 17:17:24 +0900
+
+numakiti (0.1.14-21) unstable; urgency=low
+
+  * added the intl.h entry in src/Makefile.am
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 22:54:09 +0900
+
+numakiti (0.1.14-20) unstable; urgency=low
+
+  * fixed aclocal.m4, Makefile.am, configure.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 21:33:39 +0900
+
+numakiti (0.1.14-19) unstable; urgency=low
+
+  * added AM_MAINTAINER_MODE in configure.in.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 21:15:41 +0900
+
+numakiti (0.1.14-18) unstable; urgency=low
+
+  * fixed and cleaned configure.in.
+ 
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 14:55:20 +0900
+
+numakiti (0.1.14-17) unstable; urgency=low
+
+  * added po/ChangeLog 
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 14:19:12 +0900
+
+numakiti (0.1.14-16) unstable; urgency=low
+
+  * gettextized (for gettext new version).
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 14:16:53 +0900
+
+numakiti (0.1.14-15) unstable; urgency=low
+
+  * added entry (INSTOBJEXT=.mo) in configure.in for gettext.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 13:35:14 +0900
+
+numakiti (0.1.14-13) unstable; urgency=low
+
+  * fixed debian/changelog. 
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 12:56:12 +0900
+
+numakiti (0.1.14-12) unstable; urgency=low
+
+  * fixed configure.in to be able to append gettext.m4
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 16 May 2001 12:54:18 +0900
+
+numakiti (0.1.14-11) unstable; urgency=low
+
+  * add manpage (debian/numakiti.1).
+  * fixed installing COPYING.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 03:58:02 +0900
+
+numakiti (0.1.14-10) unstable; urgency=low
+
+  * fixed CVS tags. (sources were not changed)
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 03:39:59 +0900
+
+numakiti (0.1.14-9) unstable; urgency=low
+
+  * fixed CVS tags. (sources were not changed)
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 03:38:07 +0900
+
+numakiti (0.1.14-8) unstable; urgency=low
+
+  * fixed debian/changelog version number.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 03:33:27 +0900
+
+numakiti (0.1.14-7) unstable; urgency=low
+
+  * fixed debian/docs.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 03:32:37 +0900
+
+numakiti (0.1.14-6) unstable; urgency=low
+
+  * debian/rules bug fix. 
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 01:41:36 +0900
+
+numakiti (0.1.14-5) unstable; urgency=low
+
+  * mail address fixed
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sun, 13 May 2001 00:26:55 +0900
+
+numakiti (0.1.14-4) unstable; urgency=low
+
+  * debian/changelog fixed.
+
+ -- Kazuya NUMATA <kaz@nkv>  Sun, 13 May 2001 00:24:08 +0900
+
+numakiti (0.1.14-3) unstable; urgency=low
+
+  * config.guess, config.sub were added. 
+
+ -- Kazuya NUMATA <kaz@nkv>  Sun, 13 May 2001 00:21:21 +0900
+
+numakiti (0.1.14-2) unstable; urgency=low
+
+  * Version number was fixed.
+
+ -- Kazuya NUMATA <kaz@nkv>  Sat, 12 May 2001 23:54:53 +0900
+
+numakiti (0.1.14-1) unstable; urgency=low
+
+  * Package building with cvs-buildpackage support.
+
+ -- Kazuya NUMATA <kaz@nkv>  Sat, 12 May 2001 23:54:44 +0900
+
+numakiti (0.1.13) unstable; urgency=low
+
+  * Some Buttons' texts were changed.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Mon, 08 Jan 2001 20:10:00 +0900
+
+numakiti (0.1.12) unstable; urgency=low
+
+  * Preference dialog's style was changed.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Mon, 08 Jan 2001 17:20:00 +0900
+
+numakiti (0.1.11) unstable; urgency=low
+
+  * Menubar and Toolbar style were changed.
+    (using gtk_toolbar_set_style())
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sat, 06 Jan 2001 16:20:00 +0900
+
+numakiti (0.1.10) unstable; urgency=low
+
+  * callback.[ch] were moved to callbacks.[ch].
+  * preference.[ch] were added.
+  * about dialog became to pop up on the mouse pointer.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sat, 06 Jan 2001 01:40:00 +0900
+
+numakiti (0.1.9) unstable; urgency=low
+
+  * Changed many callbacks arguments from gpointer to NKEdit *.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Fri, 05 Jan 2001 18:25:00 +0900
+
+numakiti (0.1.8) unstable; urgency=low
+
+  * Changed callbacks for modifying w-mode and text states(changed or
+    not changed).
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Tue, 03 Jan 2001 16:25:00 +0900
+
+numakiti (0.1.7) unstable; urgency=low
+
+  * ToolBox was added.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Tue, 03 Jan 2001 16:25:00 +0900
+
+numakiti (0.1.6) unstable; urgency=low
+
+  * Opening file permission check was added.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Tue, 02 Jan 2001 23:59:00 +0900
+
+numakiti (0.1.5) unstable; urgency=low
+
+  * Numakiti-Logo was added in About dialog.
+  * src/Makefile.am bug fixed.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Tue, 02 Jan 2001 01:33:00 +0900
+
+numakiti (0.1.4) unstable; urgency=low
+
+  * About dialog format was changed.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Mon, 01 Jan 2001 21:45:00 +0900
+
+numakiti (0.1-3) unstable; urgency=low
+
+  * Bug fix in quitting program.
+  * Bug fix in text clearing when loading file strings.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 29 Dec 2000 09:53:49 +0900
+
+numakiti (0.1-2) unstable; urgency=low
+
+  * Open File function added.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Wed, 27 Dec 2000 09:53:49 +0900
+
+numakiti (0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Kazuya NUMATA <kaznum@gol.com>  Sat, 25 Nov 2000 09:53:49 +0900
+
+Local variables:
+mode: debian-changelog
+add-log-mailing-address "kaznum@gol.com"
+End:

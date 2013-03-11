@@ -1,0 +1,10 @@
+Package: numakiti
+Version: 0.1.14-26
+Section: editors
+Priority: optional
+Architecture: i386
+Depends: libc6 (>= 2.2.4-4), libglib1.2 (>= 1.2.0), libgtk1.2 (>= 1.2.10-4), xlibs (>> 4.1.0)
+Installed-Size: 151
+Maintainer: Kazuya NUMATA <kaznum@gol.com>
+Description: Compact GTK Text Editor.
+ Japanese Numakiti editor.
